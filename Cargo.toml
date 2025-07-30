@@ -1,0 +1,8 @@
+[package]
+name = "uuid_v4_clipboard"
+version = "1.0.0"
+edition = "2024"
+
+[dependencies]
+uuid = { version = "1.17.0", features = ["v4"] }
+clipboard-win = "5.4.1"
